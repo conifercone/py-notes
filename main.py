@@ -7,6 +7,8 @@ def main():
     print(userid)
     useridV4 = uuid.uuid4()
     print(useridV4)
+    useridV6 = uuid.uuid6()
+    print(useridV6)
 
 
 if __name__ == "__main__":
